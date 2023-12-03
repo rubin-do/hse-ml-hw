@@ -8,7 +8,7 @@ from transforms import transform
 
 app = FastAPI()
 
-with open("./regr.pkl", 'rb') as f:
+with open("../pickles/regr.pkl", 'rb') as f:
     regression = pickle.load(f)
 
 class Item(BaseModel):

@@ -4,7 +4,7 @@ import numpy as np
 import re
 
 
-with open('./medians.pkl', 'rb') as f:
+with open('../pickles/medians.pkl', 'rb') as f:
     inferred_medians = pickle.load(f)
 
 
